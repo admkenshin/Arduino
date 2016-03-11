@@ -29,6 +29,12 @@ python:
     - "2.7"
 
 sudo: false
+
+# No need to build the unit test branch as we don't have any unit tests yet.
+branches:
+  only:
+    - master
+
 cache:
     directories:
         - "~/.platformio"
