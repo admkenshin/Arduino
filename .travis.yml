@@ -44,6 +44,7 @@ install:
 
 script:
     - platformio run -e uno_ci_test -vvv
+    #- ./scripts/ci/assert_memory_reqs.sh # Under construction
 
 
 #
